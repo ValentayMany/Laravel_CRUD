@@ -8,7 +8,7 @@
    ซึ่งโดยปกติจะมี <head>, header, footer และ @yield('content') ไว้ให้เราแทนที่
 --}}
 @extends('layout')
-
+@section('title','All Post')
 {{-- กำหนดส่วนเนื้อหา (section) ให้กับ layout ที่มี @yield('content') --}}
 @section('content')
 

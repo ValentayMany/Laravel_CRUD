@@ -1,4 +1,5 @@
 @extends('layout')
+@section('title','Show Post')
 
 @section('content')
  <h1>{{$post->title}}</h1>

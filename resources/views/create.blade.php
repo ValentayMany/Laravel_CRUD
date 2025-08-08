@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title','Create Post')
+
 @section('content')
 
     @if ($errors->any())
